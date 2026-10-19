@@ -1,2 +1,11 @@
 User-agent: *
-Disallow:
+
+Allow: /
+
+Disallow: /admin
+Disallow: /admin/
+Disallow: /login
+Disallow: /profile
+Disallow: /dashboard
+
+Sitemap: http://127.0.0.1:8000/sitemap.xml
